@@ -1,0 +1,13 @@
+h1 {
+    font-family: Quicksand;
+    font-size: 28px;
+    color: #000000;
+    text-align: center;
+}
+
+title {
+    margin: auto;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}

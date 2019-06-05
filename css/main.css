@@ -3,6 +3,10 @@ html {
 	text-align: center;
 }
 
+.wrapper {
+  position: relative;
+}
+
 .nav
 {
   display: block;
@@ -27,7 +31,7 @@ html {
 {
   display: block;
   color: #0d0d0d;
-  padding: 10px 20px;
+  padding: 10px 5px;
   text-decoration: none;
 }
 
@@ -69,4 +73,22 @@ html {
 .nav li .dropdown-menu a 
 {
   width: 150px;
+}
+
+#header-logo {
+  padding-top: 10px;
+  width: 125px;
+  height: 75px;
+}
+
+.logo > img {
+  width: 100%;
+  height: 100%;
+  max-width: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-left: 40px;
+  float:left;
 }
