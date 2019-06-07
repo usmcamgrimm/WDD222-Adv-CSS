@@ -1,0 +1,94 @@
+html {
+	font-family: Quicksand;
+	text-align: center;
+}
+
+.wrapper {
+  position: relative;
+}
+
+.nav
+{
+  display: block;
+  font-family: Rambla;
+  font-size: 16px;
+  margin: 0;
+  float: right;
+}
+
+.nav li
+{
+  display: inline-block;
+  list-style: none;
+}
+
+.nav .button-dropdown
+{
+  position: relative;
+}
+
+.nav li a
+{
+  display: block;
+  color: #0d0d0d;
+  padding: 10px 5px;
+  text-decoration: none;
+}
+
+.nav li a span
+{
+  display: inline-block;
+  margin-left: 5px;
+  font-size: 10px;
+  color: rgb(192,192,192, 0.6);
+}
+
+.nav li a:hover, .nav li a.dropdown-toggle.active
+{
+  color: #4caf50;
+}
+
+.nav li a:hover span, .nav li a.dropdown-toggle.active span
+{
+  color: #4caf50;
+}
+
+.nav li .dropdown-menu
+{
+  display: none;
+  position: absolute;
+  left: 0;
+  padding: 0;
+  margin: 0;
+  margin-top: 3px;
+  text-align: left;
+  max-width: 1280px;
+}
+
+.nav li .dropdown-menu.active
+{
+  display: block;
+}
+
+.nav li .dropdown-menu a 
+{
+  width: 150px;
+}
+
+#header-logo {
+  padding-top: 10px;
+  width: 125px;
+  height: 75px;
+}
+
+.logo > img {
+  width: 100%;
+  height: 100%;
+  max-width: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-left: 40px;
+  float:left;
+}
