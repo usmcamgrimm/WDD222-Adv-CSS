@@ -29,6 +29,26 @@ img {
 }
 
 #circle {
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#circle2 {
+    width: 475px;
+    height: 475px;
+    border-radius: 50%;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#circle3 {
     width: 450px;
     height: 450px;
     border-radius: 50%;
@@ -38,7 +58,7 @@ img {
     transform: translate(-50%, -50%);
 }
 
-#circle2 {
+#circle4 {
     width: 425px;
     height: 425px;
     border-radius: 50%;
@@ -48,7 +68,7 @@ img {
     transform: translate(-50%, -50%);
 }
 
-#circle3 {
+#circle5 {
     width: 400px;
     height: 400px;
     border-radius: 50%;
@@ -58,7 +78,7 @@ img {
     transform: translate(-50%, -50%);
 }
 
-#circle4 {
+#circle6 {
     width: 375px;
     height: 375px;
     border-radius: 50%;
@@ -68,7 +88,7 @@ img {
     transform: translate(-50%, -50%);
 }
 
-#circle5 {
+#circle7 {
     width: 350px;
     height: 350px;
     border-radius: 50%;
@@ -78,7 +98,7 @@ img {
     transform: translate(-50%, -50%);
 }
 
-#circle6 {
+#circle8 {
     width: 325px;
     height: 325px;
     border-radius: 50%;
@@ -88,7 +108,7 @@ img {
     transform: translate(-50%, -50%);
 }
 
-#circle7 {
+#circle9 {
     width: 300px;
     height: 300px;
     border-radius: 50%;
@@ -98,34 +118,52 @@ img {
     transform: translate(-50%, -50%);
 }
 
+#circle10 {
+    width: 275px;
+    height: 275px;
+    border-radius: 50%;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
 #circle:hover {
-    border: 12px solid #a1a1a1;
+    border: 12px solid #379ad6;
 }
 
 #circle2:hover {
-    border: 10px solid #a1a1a1;
+    border: 10px solid #1758a7;
 }
 
 #circle3:hover {
-    border: 8px solid #a1a1a1;
+    border: 8px solid #ffffff;
 }
 
 #circle4:hover {
-    border: 10px solid #a1a1a1;
+    border: 5px solid #1758a7;
 }
 
 #circle5:hover {
-    border: 10px solid #a1a1a1;
+    border: 8px solid #379ad6;
 }
 
 #circle6:hover {
-    border: 5px solid #a1a1a1;
+    border: 10px solid #1758a7;
 }
-/*
+
 #circle7:hover {
-    border: 5px solid #252525;
+    border: 8px solid #ffffff;
 }
-*/
+
+#circle8:hover {
+    border: 10px solid #1758a7;
+}
+
+#circle9:hover {
+    border: 5px solid #379ad6;
+}
+
 .container {
     display: flex;
     justify-content: center;
