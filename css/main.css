@@ -1,11 +1,10 @@
 #container {
-  padding-top: 100px;
-  padding-bottom: 100px;
+  padding-top: 80px;
 }
 
 #title {
   text-align: center;
-  height: 200px;
+  height: 100px;
   position: relative;
 }
 
@@ -15,4 +14,20 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+
+h1 {
+  font-family: Quicksand;
+  font-size: 32px;
+  color: #00205c;
+}
+
+#intro {
+  justify-content: left;
+}
+
+p {
+  font-family: Quicksand;
+  font-size: 18px;
+  color: black;
 }
