@@ -25,7 +25,7 @@
 .nav li a
 {
   display: block;
-  color: #0d0d0d;
+  color: #666666;
   padding: 10px 5px;
   text-decoration: none;
 }
@@ -40,12 +40,12 @@
 
 .nav li a:hover, .nav li a.dropdown-toggle.active
 {
-  color: #5c0020;
+  color: #000000;
 }
 
 .nav li a:hover span, .nav li a.dropdown-toggle.active span
 {
-  color: #5c0020;
+  color: #000000;
 }
 
 .nav li .dropdown-menu
