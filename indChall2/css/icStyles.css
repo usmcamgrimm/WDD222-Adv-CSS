@@ -1,0 +1,43 @@
+h1 {
+    font-family: Quicksand;
+    font-size: 26px;
+    color: #00205c;
+}
+
+h2 {
+    font-family: Quicksand;
+    font-size: 22px;
+    padding-left: 20px;
+}
+
+.unitList {
+    display: flex;
+    height: 115px;
+    width: 700px;
+    padding-left: 25px;
+}
+
+.box1 {
+    height: 100%;
+    width: 225px;
+    background-color: #ffffff;
+    border: 1px solid #a0a0a0;
+    box-shadow: 2px 2px 4px #c0c0c0;
+}
+
+.box2 {
+    height: 100%;
+    width: 225px;
+    background-color: #ffffff;
+    border: 1px solid #a0a0a0;
+    box-shadow: 2px 2px 4px #c0c0c0;
+    justify-content: center;
+}
+
+.box3 {
+    height: 100%;
+    width: 225px;
+    background-color: #ffffff;
+    border: 1px solid #a0a0a0;
+    box-shadow: 2px 2px 4px #c0c0c0;
+}
