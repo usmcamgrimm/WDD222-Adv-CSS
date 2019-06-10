@@ -20,6 +20,9 @@ h2 {
 .box1 {
     height: 100%;
     width: 225px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
     background-color: #ffffff;
     border: 1px solid #a0a0a0;
     box-shadow: 2px 2px 4px #c0c0c0;
@@ -31,6 +34,8 @@ h2 {
     background-color: #ffffff;
     border: 1px solid #a0a0a0;
     box-shadow: 2px 2px 4px #c0c0c0;
+    text-align: center;
+    align-items: center;
     justify-content: center;
 }
 
@@ -40,4 +45,7 @@ h2 {
     background-color: #ffffff;
     border: 1px solid #a0a0a0;
     box-shadow: 2px 2px 4px #c0c0c0;
+    text-align: center;
+    align-items: center;
+    justify-content: center
 }
