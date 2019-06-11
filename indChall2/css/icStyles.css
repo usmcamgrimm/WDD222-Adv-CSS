@@ -18,34 +18,84 @@ h2 {
 }
 
 .box1 {
+    display:flex;
     height: 100%;
     width: 225px;
     text-align: center;
     align-items: center;
     justify-content: center;
     background-color: #ffffff;
-    border: 1px solid #a0a0a0;
+    border: 1px solid #dbdbdb;
+    border-radius: 8px;
     box-shadow: 2px 2px 4px #c0c0c0;
 }
 
 .box2 {
+    display: flex;
     height: 100%;
     width: 225px;
     background-color: #ffffff;
-    border: 1px solid #a0a0a0;
+    border: 1px solid #dbdbdb;
+    border-radius: 8px;
     box-shadow: 2px 2px 4px #c0c0c0;
     text-align: center;
-    align-items: center;
     justify-content: center;
+    align-items: center;
 }
 
 .box3 {
+    display: flex;
     height: 100%;
     width: 225px;
     background-color: #ffffff;
-    border: 1px solid #a0a0a0;
+    border: 1px solid #dbdbdb;
+    border-radius: 8px;
     box-shadow: 2px 2px 4px #c0c0c0;
     text-align: center;
     align-items: center;
     justify-content: center
+}
+
+.box1:hover {
+    animation-name: fill-color;
+    animation-duration: 500ms;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in;
+}
+
+.box2:hover {
+    animation-name: fill-color;
+    animation-duration: 500ms;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in;
+}
+
+.box3:hover {
+    animation-name: fill-color;
+    animation-duration: 500ms;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in;
+}
+
+@keyframes fill-color {
+    100% {
+        background-color: #0057f9;
+    }
+}
+
+a {
+    text-decoration: none;
+}
+
+a:link, a:visited {
+    font-family: Rambla;;
+    font-size: 16px;
+    color: #00205c; 
+}
+
+a:hover, a:active {
+    color: #ffffff;
 }
