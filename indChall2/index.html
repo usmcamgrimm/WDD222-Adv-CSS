@@ -4,7 +4,7 @@
         Adrian Grimm
         WDD222 - Advanced CSS
         Independent Challenges Page
-        6/10/209
+        6/14/2019
     -->
 <head>
     <meta charset="UTF-8">
@@ -27,32 +27,32 @@
         </ul>
     </div>
     <br><br><br><br>
-    <header>
-        <h1>Independent Challenges</h1>
-    </header>
-    <section class="section">
-        <h2>Unit A</h2>
-        <div class="unitList">
-            <a href="UnitA/index.html"><div class="box1">index.html</div></a>
-        </div>
-    </section>
-    <section class="section">
-        <h2>Unit B</h2>
-        <div class="unitList">
-            <a href="UnitB/started.html"><div class="box1">started.html</div></a>
-            &nbsp; &nbsp;
-            <a href="UnitB/startedxhtml.html"><div class="box2">startedxhtml.html</div></a>
-        </div>
-    </section>
-    <section class="section">
-        <h2>Unit C</h2>
-        <div class="unitList">
-            <a href="UnitC/index.html"><div class="box1">index.html</div></a>
-            &nbsp; &nbsp;
-            <a href="UnitC/index_embedded.html"><div class="box2">index_embedded.html</div></a>
-            &nbsp; &nbsp;
-            <a href="UnitC/started.html"><div class="box3">started.html</div></a>
-        </div>
-    </section>
+    <div class="container">
+        <header>
+            <h1>Independent Challenges</h1>
+        </header>
+        <button class="accordion">Unit A</button>
+            <div class="unitList">
+                <a href="UnitA/index.html"><div class="box1">index.html</div></a>
+            </div>
+        <button class="accordion">Unit B</button>
+            <div class="unitList">
+                <a href="UnitB/started.html"><div class="box1">started.html</div></a>
+                &nbsp; &nbsp;
+                <a href="UnitB/startedxhtml.html"><div class="box2">startedxhtml.html</div></a>
+            </div>
+        <button class="accordion">Unit C</button>
+            <div class="unitList">
+                <a href="UnitC/index.html"><div class="box1">index.html</div></a>
+                <a href="UnitC/index_embedded.html"><div class="box2">index_embedded.html</div></a>
+                <a href="UnitC/started.html"><div class="box3">started.html</div></a>
+            </div>
+        <button class="accordion">Unit D</button>
+            <div class="unitList">
+                <a href="UnitD/index.html"><div class="box1">index.html</div></a>
+            </div>
+        <script src="UnitD/js/jquery-3.2.1.min.js"></script>
+        <script src="UnitD/js/icUnits.js"></script>
+    </div>
 </body>
 </html>

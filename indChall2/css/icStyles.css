@@ -1,24 +1,39 @@
+/* Reset Styles */
+section, div, a, h1, h2 {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 900px;
+}
+
 h1 {
     font-family: Quicksand;
     font-size: 26px;
     color: #00205c;
+    padding-bottom: 0.5em;
 }
 
 h2 {
     font-family: Quicksand;
     font-size: 22px;
     padding-left: 20px;
+    padding-bottom: 0.3em;
 }
 
 .unitList {
-    display: flex;
+    display: none;
+    position: relative;
     height: 115px;
     width: 700px;
     padding-left: 25px;
+    margin: 1em auto;
 }
 
 .box1 {
-    display:flex;
+    display: inline-flex;
     height: 100%;
     width: 225px;
     text-align: center;
@@ -31,7 +46,7 @@ h2 {
 }
 
 .box2 {
-    display: flex;
+    display: inline-flex;
     height: 100%;
     width: 225px;
     background-color: #ffffff;
@@ -44,7 +59,7 @@ h2 {
 }
 
 .box3 {
-    display: flex;
+    display: inline-flex;
     height: 100%;
     width: 225px;
     background-color: #ffffff;
@@ -91,11 +106,42 @@ a {
 }
 
 a:link, a:visited {
-    font-family: Rambla;;
+    font-family: Rambla;
     font-size: 16px;
     color: #00205c; 
 }
 
 a:hover, a:active {
     color: #ffffff;
+}
+
+/* Accordion Styling */
+.accordion {
+    flex-direction: row;
+    background-color: #ffffff;
+    color: #000000;
+    font-weight: bold;
+    padding: 20px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+}
+
+button {
+    font-family: Quicksand;
+    font-size: 20px;
+    color: #000000;
+}
+
+.accordion:hover {
+    text-shadow: 2px 4px 10px #5c0020;
+}
+
+.panel {
+    padding: 0 18px;
+    background-color: #ffffff;
+    display: none;
+    overflow: hidden;
 }
