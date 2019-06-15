@@ -115,6 +115,7 @@ a:hover, a:active {
     color: #ffffff;
 }
 
+/* For week 3, I added an accordion class */
 /* Accordion Styling */
 .accordion {
     flex-direction: row;
