@@ -56,7 +56,7 @@ p.skipnavigation a:focus {
 
 /* header section */
 header {
-   width: 100%;
+   width: 76%;
    padding: 1em 2% 0.5em;
    text-align: center;
    background-color: rgb(140,198,63);
@@ -71,18 +71,22 @@ h1 {
    text-shadow: 0 0 5px white;
 }
 header div {
+   display: none;
    max-width: 224px;
    float: left;
 }
 
 /* site navigation */
 nav.sitenavigation {
-   padding: 0 2% 2%;
-   width: 21%;
-   float: left;
+   padding: 2%;
+   width: 16%;
+   float: right;
    text-align: right;
 }
 nav.sitenavigation ul {
+   display: none;
+   position: absolute;
+   right: 2%;
    text-align: left;
 }
 nav.sitenavigation li {
@@ -90,7 +94,6 @@ nav.sitenavigation li {
 }
 nav.sitenavigation a {
    padding: 0.2em;
-   margin-bottom: 0.6em;
    display: block;
    background-color: #c8f098;
    font-weight: bold;
@@ -114,7 +117,7 @@ nav.sitenavigation a:active {
 
 /* main content */
 article {
-   width: 75%;
+   width: 100%;
    font-size: 1.4em;
    line-height: 1.6em;
    padding: 1em 0;
@@ -129,6 +132,9 @@ article p {
 article figure {
    max-width: 100%;
    float: left;
+}
+p:first-child {
+   margin-top: 0;
 }
 
 /* sidebar */
@@ -159,6 +165,68 @@ footer {
    color: white;
    background-color: black;
    text-align: right;
+}
+
+/* Small screen / tablet styles */
+@media screen and (min-width: 500px), print {
+   aside {
+      display: block;
+   }
+   article {
+      width: 70%;
+      font-size: 2em;
+      float: left;;
+   }
+}
+
+/* Standard screen styles */
+@media screen and (min-width: 760px), print {
+   body {
+      padding: 1em;
+   }
+   .container {
+      border-radius: 2em;
+      background-color: #c8f098;
+   }
+   header {
+      width: auto;
+      float: none;;
+      border-radius: 2em  2em 0 0;
+   }
+   div {
+      display: block;
+   }
+   nav.sitenavigation {
+      padding: 2%;
+      width: 21%;
+      float: left;
+   }
+   nav.sitenavigation img {
+      display: none;
+   }
+   nav.sitenavigation ul {
+      display: block;
+      position: static;
+   }
+   nav.sitenavigation a {
+      margin-bottom: 0.6em;
+   }
+   article {
+      width: 50%;
+   }
+   aside {
+      width: 19%;
+   }
+   footer {
+      border-radius: 0 0 2em 2em;
+   }
+}
+
+/* Large screen styles */
+@media screen and (min-width: 1080px), print {
+   .container {
+      width: 1040px;
+   }
 }
 
 /* print styles */
