@@ -122,7 +122,8 @@ a:hover, a:active {
     background-color: #ffffff;
     color: #000000;
     font-weight: bold;
-    padding: 20px;
+    padding-left: 20px;
+    padding-bottom: 5px;
     width: 100%;
     text-align: left;
     border: none;
