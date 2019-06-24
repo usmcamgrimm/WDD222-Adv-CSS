@@ -1,9 +1,9 @@
 ﻿/* 
    Murfreesboro Regional Soccer League style sheet 
    Filename: styles.css
-
-   Author:   
-   Date:     
+   WDD222 - Advanced CSS
+   Author: Adrian Grimm
+   Date: 6/24/2019
    HTML5 and CSS3 Illustrated Unit K, Independent Challenge 2
  */
 
@@ -65,9 +65,31 @@ header {
    padding: 1em 2% 0.5em;
    text-align: center;
    background: rgb(140,198,63);
+   background: linear-gradient(90deg, rgb(140,198,63), #ffffff);
    overflow: hidden;
    position: relative;
    z-index: 1;
+   animation-name: logozoom;
+   animation-duration: 2s;
+   -webkit-animation-duration: 2s;
+   animation-timing-function: ease-out;
+   -webkit-animation-duration: ease-out;
+}
+@keyframes logozoom {
+    0% {
+        left: 800px;
+    }
+    100% {
+        left: 0px;
+    }
+}
+@-webkit-keyframes logozoom {
+    0% {
+        left: 800px;
+    }
+    100% {
+        left: 0px;
+    }
 }
 h1 {
    width: 61%;
@@ -94,6 +116,10 @@ nav.sitenavigation {
 }
 nav.sitenavigation li {
    font-size: 1.2em;
+   -webkit-transition-duration: 0.5s;
+   transition-duration: 0.5s;
+   -webkit-transition-timing-function: ease-in-out;
+   transition-timing-function: ease-in-out;
 }
 nav.sitenavigation a {
    margin-bottom: 0.6em;
@@ -117,6 +143,11 @@ nav.sitenavigation a:active {
    position: relative;
    top: 1px;
    left: 1px;
+}
+nav.sitenavigation li:hover {
+    -ms-transform: translateX(-25px);
+    -webkit-transform: translateX(-25px);
+    transform: translateX(-25px);
 }
 
 /* main content */
@@ -163,6 +194,18 @@ fieldset {
    text-align: center;
    background: white;
 }
+.circle {
+    width: 16em;
+    height: 84%;
+    border: 10px solid #fff;
+    border-radius: 50%;
+    position: absolute;
+    left: -10em;
+    z-index: -1;
+}
+.no-borderradius .circle {
+    display: none;
+}
 
 /* field styles */
 input {
@@ -183,6 +226,12 @@ input {
    background-color: #c8f098;
    border-radius: 0.5em;
 }
+input:focus {
+    background-color: #eee;
+}
+.contactinfo input:valid {
+    background-color: #d1f4bd;
+}
 
 /* label styles */
 label {
@@ -200,6 +249,10 @@ label {
 }
 .contactinfo label.score {
    width: 38%;
+}
+label:before {
+    content: "* ";
+    color: #ff0000;
 }
 
 /* footer section */
