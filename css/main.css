@@ -49,3 +49,9 @@ h1 {
   padding-left: 25px;
   padding-right: 15px;
 }
+
+.twitter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
