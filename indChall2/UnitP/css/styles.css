@@ -99,13 +99,21 @@ nav.sitenavigation a {
    font-weight: bold;
 }
 nav.sitenavigation li a:before {
+   width: 20px;
+   height: 20px;
    padding-right: 0.2em;
-   content: url("../../images/ball_blk.png");
+   content: url("");
    position: relative;
    top: 3px;
+   display: inline-block;
+   overflow: hidden;
+   background-repeat: no-repeat;
+   background-image: url("../images/sprites.png");
+   background-position: -2px -2px;
 }
 nav.sitenavigation li.current_page a:before {
-   content: url("../../images/ball_red.png");
+   /* content: url("../../images/ball_red.png"); */
+   background-position: -24px -2px;
 }
 nav.sitenavigation a:link {
    color: black;
@@ -157,14 +165,6 @@ figure {
 .no-heading figure {
    margin-left: -5%;
    float: left;
-}
-
-/* sidebar */
-aside {
-   width: 25%;
-   padding: 1em;
-   float: right;
-   background-color: white;
 }
 
 /* main content tables */
@@ -278,7 +278,7 @@ footer {
       position: static;
       margin: 0 auto;
    }
-   aside, body, .container, footer, header {
+   body, .container, footer, header {
       color: #000;
       background: #fff;
    }
