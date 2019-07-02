@@ -13,9 +13,10 @@ body {
 }
 h1 {
     font-family: 'Overlock SC';
+    text-align: center;
     font-size: 60px;
-    color: #37738e;
-    text-shadow: 1px 3px 4px #000;
+    color: #1d5371;
+    text-shadow: 2px 2px 3px #000000;
 }
 .container {
     margin-top: 50px;
@@ -32,7 +33,7 @@ img.logo {
     transform: translate(-50%, -50%);
     font-family: 'Overlock SC';
     font-size: 88px;
-    color: #37738e;
+    color: #1d5371;
     text-shadow: 1px 3px 4px #000;
 }
 .navbar {
