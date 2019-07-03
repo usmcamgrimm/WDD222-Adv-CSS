@@ -1,0 +1,32 @@
+h1 {
+    text-align: center;
+    font-family: Philosopher;
+    cursor: crosshair;
+}
+.wrapper {
+    position: relative;
+}
+.nav {
+    display: block;
+    font-family: Rambla;
+    font-size: 16px;
+    margin: 0;
+    float: right;
+}
+.nav li {
+    display: inline-block;
+    list-style: none;
+}
+.nav li a {
+    display: inline-block;
+    color: #666666;
+    padding: 10px 5px;
+    text-decoration: none;
+}
+.nav li a:hover {
+    color: #428bca;
+    background-color: #ffffff;
+}
+.nav li a:visited {
+    background-color: #ffffff;
+}
