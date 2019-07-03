@@ -1,0 +1,43 @@
+/*
+Adrian Grimm
+WDD222- Advanced CSS
+Bootstrap Lesson 2 Web Page
+7/3/2019
+*/
+html
+{
+    height: 100%;
+}
+
+body
+{
+    background: url(../images/smoothieBCG.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+/*the code above makes the image responsive*/
+
+.center
+{
+    text-align: center;
+    padding-top: 15%;
+}
+
+h1
+{
+    font-family: 'Fondamento', cursive;
+    color: #f03;
+    font-size: 6em;
+}
+
+h2
+{
+    font-family: 'Lemonada', cursive;
+    color: #f39;
+    font-size: 3em;
+}
+
+#exampleInputName2, #exampleInputEmail2 {
+    font-family: 'Comfortaa';
+}
