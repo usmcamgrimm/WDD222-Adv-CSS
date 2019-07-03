@@ -1,0 +1,44 @@
+/*
+  Adrian Grimm
+  WDD222 - Advanced CSS
+  Bootstrap Introduction
+  6/30/2019
+*/
+a:link, a:visited, a:active {
+    text-decoration: underline;
+}
+body {
+    background-color: #ccf6fa;
+    margin-left: 0.5%;
+}
+ul {
+    padding-left: 0;
+    margin-left: 2%;
+}
+dd {
+    text-indent: 3%;
+}
+.wrapper {
+    position: relative;
+}
+.nav {
+    display: block;
+    font-family: Rambla;
+    font-size: 16px;
+    margin: 0;
+    float: right;
+}
+.nav li {
+    display: inline-block;
+    list-style: none;
+}
+.nav li a {
+    display: inline-block;
+    color: #666666;
+    padding: 10px 5px;
+    text-decoration: none;
+}
+.nav li a:hover {
+    color: #000000;
+    background-color: #ccf6fa;
+}
