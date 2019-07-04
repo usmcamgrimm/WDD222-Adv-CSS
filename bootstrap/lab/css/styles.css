@@ -2,28 +2,21 @@
 Adrian Grimm
 WDD222 - Advanced CSS
 Bootstrap Lab CSS
-7/01/2019
+7/04/2019
 */
 html {
     height: 100%;
 }
 body {
-    background-image: url("../images/metalbackground.png");
+    background-image: url("../images/background.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
     background-color: #000;
 }
-h1 {
-    font-family: 'Overlock SC';
-    text-align: center;
-    font-size: 60px;
-    color: #1d5371;
-    text-shadow: 2px 2px 3px #000000;
-}
 .container {
-    margin-top: 50px;
+    margin-top: 8%;
 
 }
 img.logo {
@@ -32,16 +25,23 @@ img.logo {
     margin-right: auto;
 }
 h1 {
+    text-align: center;
     font-family: 'Overlock SC';
     font-size: 6em;
     color: #1d5371;
     text-shadow: 3px 3px 3px #000;
 }
 h2 {
+    text-align: center;
     font-family: 'Amarante';
-    color: #0f312d;
+    color: #1d5371;
     font-size: 3em;
     text-shadow: 1px 1px 2px #000;
+}
+p {
+    font-family: 'Overlock SC';
+    font-size: 2em;
+    color: #ffffff;
 }
 .center {
     text-align: center;
