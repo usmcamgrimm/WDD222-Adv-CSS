@@ -27,7 +27,7 @@ img.logo {
 h1 {
     text-align: center;
     font-family: 'Overlock SC';
-    font-size: 6em;
+    font-size: 5em;
     color: #1d5371;
     text-shadow: 3px 3px 3px #000;
 }
@@ -45,7 +45,7 @@ p {
 }
 .center {
     text-align: center;
-    padding-top: 17%;
+    padding-top: 8%;
 }
 /* Bootstrap Navbar */
 .navbar {
@@ -59,8 +59,8 @@ p {
 .navbar-inverse .navbar-nav li a {
     font-family: 'Federant';
     font-size: 1.5em;
-    color: #1f4d42;
+    color: #1d5371;
 }
 .navbar-inverse .navbar-nav li a:hover {
-    color: #4f846a; 
+    color: #5395aa; 
 }

@@ -16,15 +16,11 @@
     <link href="css/styles.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Amarante|Federant|Overlock+SC&display=swap" rel="stylesheet">
     <link rel="icon" href="images/tabIcon.png" type="image/png" sizes="48x48">
-    <style>
-        body {
-            background-image: url("images/logobackground.png");
-        }
-    </style>
 </head>
 
 <body>
-    <nav class="navbar navbar-inverse">
+    <!-- Change to nav bar using bootstrap -->
+    <nav class="navbar navbar-inverse"> <!-- Dark navbar -->
         <div class="container-fluid">
             <ul class="nav navbar-nav">
                 <li><a href="../../main.html">WDD222 Home</a></li>
@@ -36,11 +32,16 @@
             </ul>
         </div>
     </nav>
-    <div class="container">
+    <div class="container center">
         <div class="row">
-            <div class="col-md-12">
+            <div class="col-md-8">
+            <!-- Use an 8 column alignment to keep to the side of the image -->
                 <h1>Wolven Records</h1>
                 <h2>The inspirations of Bragi</h2>
+            </div>
+            <!-- 4 columns for the logo image -->
+            <div class="col-md-4">
+                <img src="images/wolf.png" height="300px" width="300px" alt="wolven records logo">
             </div>
         </div>
     </div>
