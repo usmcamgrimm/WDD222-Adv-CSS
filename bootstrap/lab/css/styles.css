@@ -2,7 +2,7 @@
 Adrian Grimm
 WDD222 - Advanced CSS
 Bootstrap Lab CSS
-7/04/2019
+7/05/2019
 */
 html {
     height: 100%;
@@ -38,19 +38,12 @@ p {
     text-align: center;
     margin-top: 12%;
 }
-/* Bootstrap Navbar */
-.navbar {
-    position: relative;
-    width: 100%;
-    background: linear-gradient(180deg, #0f0f0f,  #212121);
-    background-color: #000000;
-    box-shadow: 0px 2px 4px #000000;
-}
-.navbar-inverse .navbar-nav li a {
+a {
     font-family: 'Federant';
     font-size: 1.5em;
     color: #1d5371;
 }
-.navbar-inverse .navbar-nav li a:hover {
-    color: #5395aa; 
+a:hover {
+    color: #5395aa;
+    text-decoration: none;
 }
