@@ -1,0 +1,75 @@
+/*
+Adrian Grimm
+WDD222 - Advanced CSS
+Bootstrap Activity Four
+7/05/2019
+*/
+html {
+    height: 100%
+}
+body {
+    background-image: url("../images/money.png");
+    background-position: center;
+    background-size: cover;
+    font-family: Merriweather, serif;
+}
+.col1 {
+    background: #808e9b;
+    width: 49%;
+    padding: 12px !important;
+}
+th.col1 {
+    background: #485460;
+    text-transform: uppercase;
+    padding: 30px 10px !important;
+    font-size: 1.5em;
+    color: #000000
+}
+.col2 {
+    background: #0fbcf9;
+    text-align: center;
+    color: #ffffff;
+}
+th.col2 {
+    background: #34e7e4;
+    text-transform: uppercase;
+    padding: 30px 10px !important;
+    font-size: 1.5em;
+}
+.col3 {
+    background: #05c46b;
+    text-align: center;
+    color: #ffffff;
+}
+th.col3 {
+    background: #0be881;
+    text-transform: uppercase;
+    padding: 30px 10px !important;
+    font-size: 1.5em;
+}
+.col4 {
+    background: #f53b57;
+    text-align: center;
+    color: #ffffff;
+}
+th.col4 {
+    background: #ef5777;
+    text-transform: uppercase;
+    padding: 30px 10px !important;
+    font-size: 1.5em;
+}
+.btn {
+    border: 2px solid #ffffff;
+}
+.right {
+    background: #7e81ad;
+    padding: 6px;
+    border: 2px solid;
+    color: #ffffff;
+}
+.cross {
+    background: #4ae7db;
+    padding: 6px;
+    border: 2px solid;
+    color: #4f8bb4;
+}
