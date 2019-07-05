@@ -47,3 +47,17 @@ a:hover {
     color: #5395aa;
     text-decoration: none;
 }
+td, th {
+    font-family: Federo;
+}
+th {
+    text-align: center;
+    color: #1d5371;
+    font-size: 20px;
+    background-color: rgb(33, 33, 33, 0.8);
+}
+td {
+    font-size: 18px;
+    color: #ffffff;
+    background-color: rgb(63, 63, 63, 0.5);
+}
