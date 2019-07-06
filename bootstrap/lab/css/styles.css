@@ -30,6 +30,14 @@ h2 {
     font-size: 3em;
     text-shadow: 1px 1px 2px #000;
 }
+h3 {
+    font-family: 'Overlock SC';
+    font-size: 2em;
+    color: #fff;
+}
+.wrapper {
+    background-color: rgb(33, 33, 33, 0.5)
+}
 p {
     font-family: 'Overlock SC';
     font-size: 2em;
