@@ -1,0 +1,62 @@
+/*
+    Adrian Grimm
+    WDD222 - Advanced CSS
+    Bootstrap Activity
+    Forms & Components
+    7/06/2019
+*/
+body { 
+    background: #141E30;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #243B55, #141E30);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #243B55, #141E30); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+h1 {
+    text-align: center;
+    font-family: 'Merienda One';
+    color: #fff;
+}
+@media (max-width: 450px) {
+    body {
+        background: #4CA1AF;  /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #C4E0E5, #4CA1AF);  /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #C4E0E5, #4CA1AF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    }
+    h1 {
+        color: #000000;
+    }
+}
+@media (min-width: 451px) and (max-width: 600px) {
+    body {
+        background: #1D4350;  /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #A43931, #1D4350);  /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #A43931, #1D4350); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    }
+}
+@media (min-width: 601px) and (max-width: 768px) {
+    body {
+        background: #00d2ff;  /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #928DAB, #00d2ff);  /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #928DAB, #00d2ff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    }
+}
+@media (min-width: 769px) and (max-width: 1024px) {
+    body {
+        background: #3a7bd5;  /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #3a6073, #3a7bd5);  /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #3a6073, #3a7bd5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    }
+}
+@media (min-width: 1025) and (max-width: 1250) {
+    body {
+        background: #2C3E50;  /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #4CA1AF, #2C3E50);  /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #4CA1AF, #2C3E50); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    }
+}
+a {
+    color: #fff;
+}
+a:hover {
+    color: #c0c0c0;
+    cursor: crosshair;
+}
