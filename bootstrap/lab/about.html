@@ -66,7 +66,28 @@
     <div class="container">
         <div style="background-color:rgb(33, 33, 33, 0.5);" class="jumbotron">
             <h1 style="color:#1d5371">About Us</h1>
-            <p style="text-align:center">Wolven Records is an independent record company based out of Ohio.<br>We provide promotion for artists, not based on style or genre.<br>The music and artists we support are passionate, and are based mostly on ancient traditions and folklore.</p>
+
+            <!-- Modal trigger button -->
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <button type="button" class="btn btn-lg btn-default" data-toggle="modal" data-target="#aboutModal">Click for Information</button>
+                </div>
+            </div>
+
+            <!-- The modal-->
+            <div class="modal fade" id="aboutModal" role="dialog">
+                <div class="modal-dialog modal-lg">
+                    <div class="modal-content">
+
+                        <!-- Modal body -->
+                        <div class="modal-body">
+                            <p>Wolven Records is an independent record company based out of Ohio.<br>We provide promotion for artists, not based on style or genre.<br>The music and artists we support are passionate, and are based mostly on ancient traditions and folklore.</p>
+                            <br>
+                            <button type="button" class="btn btn-primary text-center" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
     <script src="../js/jquery-3.4.1.min.js"></script>

@@ -121,3 +121,11 @@ td {
         display: none;
     }
 }
+.thumbnail {
+    background-color:transparent;
+    border:none;
+}
+.modal-body {
+    background-color: #212121;
+    text-align: center;
+}
