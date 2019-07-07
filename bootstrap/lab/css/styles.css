@@ -109,3 +109,15 @@ td {
         color: #1d5371;
     }
 }
+@media (max-width: 600px) {
+    .navbar-inverse .navbar-brand {
+        color: #1d5371;
+        font-size: 1.8em;
+        text-shadow: 0px 1px 3px #000; 
+    }
+}
+@media (min-width: 601px) {
+    .navbar-brand {
+        display: none;
+    }
+}
