@@ -1,0 +1,18 @@
+/*
+  Adrian Grimm
+  WDD222 - Advanced CSS
+  Bootstrap Activity
+  Images and Modals
+  7/07/2019
+*/
+.navbar, .navbar-default {
+  background-color:   #b3e5fc;
+  border: none;
+}
+
+body {
+background: #003973; /* fallback for old browsers */
+background: -webkit-linear-gradient(right, #003973, #E5E5BE);
+background: -o-linear-gradient(right, #003973, #E5E5BE);
+background: linear-gradient(to left, #003973, #E5E5BE); /* Chrome 10-25, Safari 5.1-6 */ /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
