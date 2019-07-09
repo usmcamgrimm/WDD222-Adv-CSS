@@ -92,6 +92,9 @@ td {
     background-color: transparent;
     color: #5395aa;
 }
+.navbar-inverse .navbar-nav .op .dropdown-menu>li>a {
+    background-color: #1f1f1f;
+}
 .navbar-inverse .navbar-nav li.active a:hover, .navbar-inverse .navbar-nav li.active a:visited {
     background-color: transparent;
     color: #93dbe3;
