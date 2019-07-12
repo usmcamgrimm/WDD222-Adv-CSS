@@ -81,3 +81,7 @@ hr {
 .item, .carousel {
     background-color: transparent;
 }
+.center {
+    text-align: center;
+    padding-top: 5%;
+}
