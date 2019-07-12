@@ -10,6 +10,7 @@ body {
     background: #0052BD;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to bottom, #c0c0c0, #0052BD);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to bottom, #c0c0c0, #0052BD); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    margin-bottom: 60px;
 }
 h1 {
     font-family: Bellefair;
@@ -61,6 +62,22 @@ hr {
     background-color: #1f1f1f;;
     color: #D1160D;
 }
+.modal-body {
+    background-color: #bbbbbb;
+}
+#motuModal {
+    background-color: rgba(17, 17, 17, .5);
+}
+.item, .carousel {
+    background-color: transparent;
+}
+.center {
+    text-align: center;
+    padding-top: 5%;
+}
+.text-muted {
+    color: #c0c0c0;
+}
 @media (max-width: 767px) {
     .navbar-inverse .navbar-nav .open .dropdown-menu>li>a {
         color: #fafafa;
@@ -76,17 +93,4 @@ hr {
     .navbar-brand {
         display: none;
     }
-}
-.modal-body {
-    background-color: #bbbbbb;
-}
-#motuModal {
-    background-color: rgba(17, 17, 17, .5);
-}
-.item, .carousel {
-    background-color: transparent;
-}
-.center {
-    text-align: center;
-    padding-top: 5%;
 }
