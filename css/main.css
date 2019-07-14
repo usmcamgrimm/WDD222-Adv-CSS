@@ -3,7 +3,6 @@
   height: 100px;
   position: relative;
 }
-
 #title h1 {
   margin: 0;
   position: absolute;
@@ -11,18 +10,15 @@
   left: 50%;
   transform: translate(-50%, -50%);
 }
-
 h1 {
   font-family: 'Prosto One';
   font-size: 36px;
   color: #00205c;
   text-shadow: 1px 2px 2px #000000;
 }
-
 #container {
   padding-top: 80px;
 }
-
 #box-container {
   background-color: #ffffff;
   display: flex;
@@ -30,28 +26,33 @@ h1 {
   justify-content: center;
   align-items: center;
 }
-
 #box-text {
   width: 50%;
   height: 40%;
 }
-
 #box-image {
   width: 50%;
   height: 100%;
 }
-
 #container p {
   font-family: Quicksand;
-  font-size: 18px;
+  font-size: 20px;
   display: flex;
   justify-content: center;
   padding-left: 25px;
   padding-right: 15px;
 }
-
 .twitter {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.center {
+  text-align: center;
+  padding-top: 5%;
+}
+.text-muted {
+  font-family: Ubuntu;
+  font-size: 18px;
+  color: #00205c;
 }
